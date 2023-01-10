@@ -30,14 +30,18 @@ const dias = ["Enero", "Febrero", "Enero", "Febrero", "Marzo"];
 // const minArray = num.filter(el => el === minValue);
 
 //remove uno con id repetido
-// const arr = [{id: 1, name: 'one'}, {id: 2, name: 'two'}, {id: 1, name: 'one'}]
+//listo
+// var arr = [{id: 1, name: 'one'}, {id: 2, name: 'two'}, {id: 1, name: 'one'}]
 
 // const ids = arr.map(o => o.id)
 // const filtered = arr.filter(({id}, index) => !ids.includes(id, index + 1))
 
 // console.log(filtered)
 
+
+
 //remove uno con id
+//listo
 // const fruits = [
 //   {id:1, name: 'Banana'},
 //   {id:2, name: 'Apple'},
@@ -47,5 +51,3 @@ const dias = ["Enero", "Febrero", "Enero", "Febrero", "Marzo"];
 // Remove Apple with id '2'
 // const newFruits = fruits.filter(fruit => fruit.id !== 2)
 // console.log(newFruits)
-
-

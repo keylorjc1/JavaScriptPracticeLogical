@@ -1,5 +1,6 @@
 // Write a simple JavaScript program to join all elements of the following array into a string
 // Sample array : myColor = ["Red", "Green", "White", "Black"];
+//listo
 function joinArr(arr, separador) {
   let emptyStr = "";
   for (let index = 0; index < arr.length; index++) {
@@ -84,4 +85,5 @@ for (var x = 0; x < str.length; x++) {
   }
 }
 console.log(result.join(""));
+
 
