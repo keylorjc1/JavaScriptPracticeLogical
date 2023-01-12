@@ -1,5 +1,3 @@
-// Write a JavaScript function to check whether an `input` is an array or not
-//Write a JavaScript function to check whether an `input` is a string or not.
 //Write a JavaScript function that checks whether a passed string is palindrome or not?
 //Write a JavaScript function that returns a passed string with letters in alphabetical order..
 //Write a javaScript function to find the longest work
