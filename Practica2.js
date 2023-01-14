@@ -42,12 +42,28 @@ const dias = ["Enero", "Febrero", "Enero", "Febrero", "Marzo"];
 
 //remove uno con id
 //listo
-// const fruits = [
-//   {id:1, name: 'Banana'},
-//   {id:2, name: 'Apple'},
-//   {id:3, name: 'Kiwi'}
-// ]
+const fruits = [
+  {id:1, name: 'Banana'},
+  {id:2, name: 'Apple'},
+  {id:3, name: 'Kiwi'}
+]
+
+var cars = [
+  {id:1, name:'hyundai'},
+  {id:1, name:'hyundai'},
+  {id:2, name:'BMW'},
+]
+
+function removeDup(cars) {
+  let ids = cars.map(x => x.id);
+  let filtered = cars.filter( ({id},i) => !ids.includes(id,i + 1))
+  return filtered;
+}
+
+console.log(removeDup(cars));
 
 // Remove Apple with id '2'
-// const newFruits = fruits.filter(fruit => fruit.id !== 2)
-// console.log(newFruits)
+const newFruits = fruits.filter(fruit => fruit.id !== 2)
+console.log(newFruits)
+
+

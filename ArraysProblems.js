@@ -84,3 +84,11 @@ for (var x = 0; x < str.length; x++) {
 }
 console.log(result.join(""));
 
+
+
+// Write a simple JavaScript program to join all elements of the following array into a string
+// Sample array : myColor = ["Red", "Green", "White", "Black"];
+
+
+// Write a JavaScript program to sort the items of an array.
+// Sample array : var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ];
